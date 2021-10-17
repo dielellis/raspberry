@@ -1,0 +1,51 @@
+/*Каркас сайта*/
+body {overflow:hidden; background:url("images/fon.PNG")top left/1500px 980px no-repeat; font-size:20px;}
+
+/*Шапка сайта*/
+#head-site {width:955px; color:#fff; margin-left:35px; text-transform:uppercase; font-size:35px;}
+
+/*Меню сайта*/
+#nav {width:955px; height:90px; margin-left:35px;}
+.bg-2 {width:420px; height:8px; background:#9e1515;}
+.bg-1 ul {margin:0; padding:0; list-style:none;}
+.bg-1 ul li {float:left; padding:20px 10px 0 0;}
+.bg-1 ul li a {display:block; height:40px; padding:20px 35px 3px 35px; color:#fff; text-decoration:none; text-transform:uppercase;}
+.bg-1 ul li a:hover {color:#fff; background:#9e1515;}
+
+/*Правая часть*/
+#bokovaya-panel {width:350px; height:300px; position:absolute; top:350px; right:0;}
+.zavitok{opacity:0.25; position:absolute; top:200px; right:0;}
+.bg-3 ol {margin:0; list-style:none;}
+.bg-3 ol li {margin-bottom:20px; width:100%; color:#000; text-decoration:none; display:inline-block; padding-left:15px; height:44px; line-height:normal; font-size:20px; position:relative; transition:.3s linear;}
+.bg-3 li {position:relative;}
+.bg-3 li:before {content:""; width:20px; height:20px; border-radius:50%; background:#9e1515; position:absolute; top:12px; left:-30px; z-index:2; transition:.4s ease-in-out;}
+.bg-3 li:hover:before {left:-20px;}
+
+/*Основная часть. Главная*/
+#main-content {width:955px; height:575px; margin-left:35px;}
+.text {width:410px; padding:100px 0 25px 0; margin-left:35px; text-align:left; font-size:35px; color:#fff; font-style:oblique;}
+.bottom a {display:inline-block; margin-left:70px; padding:25px 45px 25px 45px; background:#9e1515; border-radius:100px; color:#fff; font-size:25px; text-decoration:none;}
+.tortik {opacity:0.25; position:absolute; bottom:0; right:0;}
+
+/*Основная часть. О нас*/
+#main-content-o-nas {width:955px; height:575px; margin-left:35px;}
+.zagolovok {width:410px; margin-left:35px; margin-top:50px; font-size:35px; color:#fff;}
+.text2 {width:955px; padding:10px 0 25px 0; margin-left:35px; text-align:left; font-size:30px; color:#fff; font-style:oblique;}
+.tortik {opacity:0.25; position:absolute; bottom:0; right:0;}
+
+/*Основная часть. Изделия*/
+#main-content-izdeliya {width:955px; height:575px; margin-left:35px;}
+.text3 ol {width:955px; margin-left:35px; padding:10px 0 25px 0; list-style:none;}
+.text3 ol li {width:100%; color:#fff; text-decoration:none; display:inline-block; padding-left:15px; height:44px; line-height:normal; font-size:30px; font-style:oblique; position:relative; transition:.3s linear;}
+.text3 li {position:relative;}
+.text3 li:before {content: ""; width: 20px; height: 20px; border-radius:50%; background:#9e1515; position:absolute; top:12px; left:-30px; z-index:2; transition:.4s ease-in-out;}
+.text3 li:hover:before {left:-20px;}
+.tortik {opacity:0.25; position:absolute; bottom:0;right: 0;}
+
+/*Основная часть. Оформить заказ*/
+#main-content-oformit-zakaz {width:955px; height:575px; margin-left:35px;}
+.text4 {width:955px; margin-left:70px; text-align:left; font-size:20px; color:#fff; font-style:oblique;}
+.name {margin-left:70px;}
+.tel {margin-left:70px;}
+.email {margin-left:70px;}
+.bottom1 a {display:inline-block; margin-left:70px; margin-top:35px; padding:30px 45px 25px 45px; background:#9e1515; border-radius:100px; color:#fff; font-size:25px; text-decoration:none;}
